@@ -2,32 +2,35 @@
 <html lang="pt-br">
 <head>
     <meta http-equiv="Content-Type"Content="text/html;charset=utf-8">
-    <meta http-equiv="Refresh"Content="2">
-    <link rel="shortcut icon" href="genshi.png">    
-    </head>
-
+    <meta http-equiv="Refresh">
+    <link rel="shortcut icon" href="genshi.png">   
+    <title>Aula 01/04/2025</title>
+</head>
 <body>
 <form action="#" method="post">
     <label for="fname">Primeiro nome:</label><br>
-    <input type="text" id="fname" name="fname"><br>
+    <input type="text" id="fname" name="fname" required><br><br>
 
-    <label for="sname">Segundo nome:</label><br>
-    <input type="text" id="sname" name="sname"><br>
+    <label for="lname">Segundo nome:</label><br>
+    <input type="text" id="lname" name="lname"><br><br>
 
     <label for="email">Email:</label><br>
-    <input type="email" id="email" name="email"><br>
+    <input type="email" id="email" name="email" required maxlength="" size="10"><br><br>
 
     <label for="telefone">Telefone:</label><br>
-    <input type="tel" id="telefone" name="telefone"><br>
+    <input type="tel" id="telefone" name="telefone" maxlength="5" size="10"><br><br>
 
-    <label for="telefone">Telefone:</label><br>
-    <input type="tel" id="telefone" name="telefone"><br>
+    <label for="estadoCivel">Estado Civil:</label><br>
+    <input type="radio" name="estadoCivel" value="casado"> Casado<br>
+    <input type="radio" name="estadoCivel" value="solteiro"> Solteiro<br>
+    <input type="radio" name="estadoCivel" value="separado"> Separado<br>
+    <input type="radio" name="estadoCivel" value="viuvo"> Viúvo<br><br>
+    
+    <label for="mensagem">Mensagem:</label><br>
+    <textarea id="mensagem" name="mensagem" rows="4 "cols="50"></textarea><br><br>
 
-    <button type="submit">Enviar</button>
-
-
-
-
+    
+    <br><button type="reset">Limpar</button> <button type="submit">Enviar</button>
 </form>
 
 </body>

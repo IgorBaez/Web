@@ -1,0 +1,46 @@
+body {
+background-color:powderblue ;
+}
+
+h1{
+color: yellowgreen;
+}
+
+p{
+color: deeppink;
+font-style: oblique;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 20px;
+font-weight: bold
+;
+
+/*background-color: #fefbd8,black,rgb(red, green, blue);
+background: url("images//fundo-topo,png")no-repeat;
+background-attachment: fixed;
+*/
+}
+#t{
+    border-style:solid;
+    border-color: black
+    ;
+}
+
+ 
+#baz{
+    
+    /*border-style: double,hidden,solid;
+    border-radius: 20px;
+    border-color: red;
+    border-width: 10px;
+    box-shadow: 10PX 10PX 8PX red;
+    
+    */
+    color: blue;
+}
+h2{
+    color: red;
+}
+img{
+    opacity:0,5 ;
+}
+

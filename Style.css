@@ -1,47 +1,121 @@
+body{
+background-color: #4b4e53;
+
+}
 #imgtop {
-    width: 100%;
+    position: relative;
+    width:90%;
     display: block;
+    justify-self: center;
+    border-radius: 1%;
   }
+
   #txttop{
     position: absolute;
-    top: 75%;        
-    left: 5%;         
+    top: 68%;        
+    left: 10%;         
     transform: translateY(-50%); 
     color: white;
     font-size: 2em;
     text-align: left;
     padding: 0 10px;
-    width: 450px;
+    width:30%;
+
 }
+
   #ini {
+    color: white;
     margin-left: 2%;
     position: absolute;
     display: inline;
+    left: 100px;
+
 }
 
-#txtini {
+ #txtini {
+    color: white;
+    left: 110px;    
     margin-left: 3%; 
     position: absolute;
     display: inline;
 }
+
+#meio{
+    color: white;
+    left: 110px;
+    text-align: justify;
+    position: absolute;
+    display: inline;
+    width: 38%;
+    margin-left: 3%;
+    line-height: 30px;
+}
+
 #imgmeio {
     position: absolute;
     display: inline;
-    margin-left: 20px;
-    left: 59%;
-    margin-bottom: 20px;
-    width: 600px;
-    height: auto;
+    left: 53%;
+    width: 40%;  
+    top:95%;
+    border-radius: 2%;
+
 }
-#meio{
-    
+
+#imgmeio2{
     position: absolute;
     display: inline;
-    width: 30%;
-    margin-left: 3%;
+    margin-top: 20%;
+    margin-left:8% ;
+    width: 35%;
+    border-radius: 2%;
+
+}
+
+#txtini2{
+    color: white;
+    position: absolute;
+    display: inline;
+    left: 4%;
+    margin-left: 50%;
+    margin-top: 20%;
+}
+
+#meio2{
+    color: white;
+    position: absolute;
+    display: inline;
+    text-align: justify;
+    line-height: 30px;
+    left: 50%;
+    width: 34%;
+    margin-left: 4%;
+    margin-top: 20%;
+
+}
+
+#txtini3{
+    color: white;
+    left: 110px;    
+    margin-left: 3%; 
+    position: absolute;
+    display: inline;
+    margin-top: 38%;
+
+}
+#meio3{
+    color: white;
+    position: absolute;
+    display: inline;
+    text-align: justify;
+    line-height: 30px;
+    left: 9%;
+    width: 34%;
+    margin-top: 38%;
 
 
 }
+
+
 
 
   

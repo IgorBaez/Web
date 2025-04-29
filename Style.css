@@ -99,7 +99,7 @@ background-color: #4b4e53;
     margin-left: 3%; 
     position: absolute;
     display: inline;
-    margin-top: 38%;
+    margin-top: 40%;
 
 }
 #meio3{
@@ -110,8 +110,16 @@ background-color: #4b4e53;
     line-height: 30px;
     left: 9%;
     width: 34%;
-    margin-top: 38%;
+    margin-top: 40%;
 
+}
+#imgmeio3{
+    position: absolute;
+    display: inline;
+    margin-top: 38%;
+    margin-left:53% ;
+    width: 35%;
+    border-radius: 2%;
 
 }
 
